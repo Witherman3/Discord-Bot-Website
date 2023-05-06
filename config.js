@@ -12,9 +12,9 @@ const config = {
   //BotInvite Link
   Features: [
     {
-      name: "Moderation",
+      name: "Chat",
       description:
-        "Moderation is the process of eliminating or lessening extremes.",
+        "Chat makes a thread in the channel the command is used in.",
       logo: <MdAddModerator className="h-10 w-10" />,
     },
     {
@@ -24,24 +24,24 @@ const config = {
       logo: <SiProbot className="h-10 w-10" />,
     },
     {
-      name: "Automation",
+      name: "Ask",
       description:
-        "Automation describes a wide range of technologies that reduce  human intervention in processes.",
+        "Ask Chat GPT a question.",
       logo: <TbMessage2Code className="h-10 w-10" />,
     },
     {
-      name: "Welcomer",
+      name: "Ping",
       description:
-        "Welcomer is the person who greet the new person in an unique and great way",
+        "The bot will reply with pong",
       logo: <CgCrown className="h-10 w-10" />,
     },
     // You can added more features if need add
   ],
   //Bot Features
-  serverCount: 300, //-  - Your
-  memberCount: 700, //--   - Bot
-  executedCommand: 27000, //--  - Stats
-  availableCommand: 400, //---   - Here
+  serverCount: 81, //-  - Your
+  memberCount: 7000, //--   - Bot
+  executedCommand: 1000, //--  - Stats
+  availableCommand: 3, //---   - Here
   //Do not change if you don't know about them
   faceBookLogo: (
     <BsFacebook className="h-10 w-10 text-[#4267B2] hover:scale-125 easeIn cursor-pointer" />
